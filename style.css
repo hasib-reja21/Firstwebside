@@ -1,0 +1,79 @@
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+    
+    /*font-family: 'Handlee', cursive;*/
+    
+    font-family: 'Montserrat', sans-serif;
+   
+    
+   
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto Flex', sans-serif;
+}
+header{
+    background-image: url('images/lifestyle.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover{
+    background: #2980b9;
+    color: white;
+    transform: scale('1.1');
+}
+.banner-container{
+    height: 100vh;
+}
+.nav ul{
+    margin-left: auto;
+}
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar-icon{
+    color: white;
+
+}
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+}
+.banner-content {
+    padding: 10px;
+    margin-top: 20%;
+    margin-left: 50px;
+}
+.banner-content h1{
+    color: red; 
+}
+.banner-content h3{
+    color: #2980b9;
+}
+#features{
+    padding: 5% 10%;
+    background: #e8ded2;
+}
+.features-col{
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 5px 6px;
+}
